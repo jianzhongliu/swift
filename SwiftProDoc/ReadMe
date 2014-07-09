@@ -1,0 +1,64 @@
+reference：
+http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=200692797&idx=1&sn=22a303e706eeaa63c64055bf46e5c6ba#rd
+
+google other ip:
+http://www.kookle.co.nr
+
+var声明变量
+var myparam = "556677"
+变量的类型用［：类型］的方式如
+var myparam:Double = 34.5
+《《《当类型是int char str long bool object等时都是如何表现得？》》》
+
+
+let声明一个常量
+let myConstant = 42
+let explicitDouble : Double = 70
+<<<?>>>
+
+
+Swift使用\(item)的形式进行字符串格式化：
+let apples = 3 
+let oranges = 5 
+let appleSummary = "I have \(apples) apples." 
+let appleSummary = "I have \(apples + oranges) pieces of fruit." 
+<<<是否所有类型都可以用这种方式去转换，如果是一个对象，又在什么方法中怎么做才能把每个属性打印出来>>>
+
+数组和字典
+Swift使用[]操作符声明数组（array）和字典（dictionary）：
+var shoppingList = ["catfish", "water", "tulips", "blue paint"] 
+shoppingList[1] = "bottle of water" 
+  
+var occupations = [ 
+    "Malcolm": "Captain", 
+    "Kaylee": "Mechanic", 
+] 
+occupations["Jayne"] = "Public Relations"
+
+一般使用初始化器（initializer）语法创建空数组和空字典：
+let emptyArray = String[]() 
+let emptyDictionary = Dictionary<String, Float>() 
+
+如果类型信息已知，则可以使用[]声明空数组，使用[:]声明空字典。
+
+
+
+
+
+如何使用if，switch，for，for－in，while，do－while？
+如何定义数组，字符串，整型，字典等？
+如何写方法，参数，可变数量参数，返回值，调用方法
+生成一个class
+生成一个对象
+调用对象
+枚举
+结构
+接口
+结构&枚举怎么实现接口
+extension和范型http://www.cocoachina.com/newbie/basic/2014/0604/8675.html
+
+swift类型嵌套，怎么用于类，结构体，枚举中
+seift闭包http://www.cocoachina.com/newbie/basic/2014/0607/8717.html
+swift调用OC&OC调用swift（你不能直接把C++代码导入Swift。解决办法是为C++代码创建一个Objective-C或者C的封装。）
+
+
