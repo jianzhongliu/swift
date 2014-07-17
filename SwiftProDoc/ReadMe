@@ -1,8 +1,18 @@
-reference：
-http://mp.weixin.qq.com/s?__biz=MjM5OTM0MzIwMQ==&mid=200692797&idx=1&sn=22a303e706eeaa63c64055bf46e5c6ba#rd
+1）说明：本project是介绍swift基本语法
+swift实用技术见我git上的：SuperSwift
+
+
+
+
+2)swift的中文版已经出来
+见工程文件：Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf
+
+
 
 google other ip:
 http://www.kookle.co.nr
+
+3)swift语法基础
 
 var声明变量
 var myparam = "556677"

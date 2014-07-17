@@ -17,6 +17,7 @@
 		B7A19935194877D1003E630C /* MYOCClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A19934194877D1003E630C /* MYOCClass.swift */; };
 		B7A1993C19487B48003E630C /* MYSecondOCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A1993B19487B48003E630C /* MYSecondOCObject.m */; };
 		B7A1993F19487C21003E630C /* MYThirdOCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A1993E19487C21003E630C /* MYThirdOCObject.m */; };
+		FC04D96A1977F22C00678AAA /* Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC04D9691977F22C00678AAA /* Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 		B72AC131193F185100C9E810 /* SwiftProDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72AC136193F185100C9E810 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B72AC137193F185100C9E810 /* SwiftProDocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProDocTests.swift; sourceTree = "<group>"; };
-		B72AC141193F186900C9E810 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+		B72AC141193F186900C9E810 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ReadMe; path = SwiftProDoc/ReadMe; sourceTree = "<group>"; };
 		B766CE211948575600C5B9AE /* AJKFilterForCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AJKFilterForCity.swift; sourceTree = "<group>"; };
 		B7A1993019485B84003E630C /* HZFilterForCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HZFilterForCity.swift; sourceTree = "<group>"; };
 		B7A1993219487557003E630C /* QianTao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QianTao.swift; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		B7A1993B19487B48003E630C /* MYSecondOCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSecondOCObject.m; sourceTree = "<group>"; };
 		B7A1993D19487C21003E630C /* MYThirdOCObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYThirdOCObject.h; sourceTree = "<group>"; };
 		B7A1993E19487C21003E630C /* MYThirdOCObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYThirdOCObject.m; sourceTree = "<group>"; };
+		FC04D9691977F22C00678AAA /* Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,8 @@
 		B72AC11B193F185100C9E810 = {
 			isa = PBXGroup;
 			children = (
+				B72AC141193F186900C9E810 /* ReadMe */,
+				FC04D9691977F22C00678AAA /* Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf */,
 				B72AC126193F185100C9E810 /* SwiftProDoc */,
 				B72AC134193F185100C9E810 /* SwiftProDocTests */,
 				B72AC125193F185100C9E810 /* Products */,
@@ -90,7 +94,6 @@
 			children = (
 				B7A1994119487C81003E630C /* SwiftPrograming */,
 				B7A1994019487C62003E630C /* OCtoSWIFT */,
-				B72AC141193F186900C9E810 /* ReadMe */,
 				B72AC12B193F185100C9E810 /* Images.xcassets */,
 				B72AC127193F185100C9E810 /* Supporting Files */,
 			);
@@ -227,6 +230,7 @@
 			files = (
 				B72AC142193F186900C9E810 /* ReadMe in Resources */,
 				B72AC12C193F185100C9E810 /* Images.xcassets in Resources */,
+				FC04D96A1977F22C00678AAA /* Using Swift with Cocoa and Objective-C完整中文CocoaChina精校版.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
